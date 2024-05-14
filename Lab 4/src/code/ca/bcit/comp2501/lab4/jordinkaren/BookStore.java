@@ -198,7 +198,6 @@ class BookStore
      * Prints all novel titles that contain visible characters and match the length exactly.
      *
      * @param length The character length of titles to print.
-     * @throws IllegalArgumentException If length is zero or negative.
      */
     void printTitlesOfLength(final int length)
     {
